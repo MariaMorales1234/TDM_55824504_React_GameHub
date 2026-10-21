@@ -1,0 +1,84 @@
+:root {
+  --bg: #0a0a0a;
+  --colors: #9527F5;
+  --text: #fff;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+span {
+  font-size: 16px;
+  color: var(--text);
+  font-family: var(--heading);
+  font-weight: 500;
+}
+
+a {
+  font-size: 16px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 50px;
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+
+h3 {
+  font-family: 24px;
+  color: var(--text);
+  font-family: var(--heading);
+  padding: 10px 0;
+}
+
+strong {
+   font-family: 24px;
+   color: var(--text);
+   font-family: var(--heading);
+   padding: 10px 0;
+}
+
+p {
+  font-family: var(--mono);
+  color: var(--text);
+  font-weight: 200;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+button {
+  background-color: var(--bg);
+  border: 1px solid var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  color: var(--text);
+  padding: 8px;
+  margin: 10px 0;
+}

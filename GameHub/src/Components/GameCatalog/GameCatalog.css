@@ -1,0 +1,73 @@
+.catalog {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: var(--bg, #101018);
+  color: var(--text, #f5f5f5);
+}
+
+.catalog-header {
+  max-width: 650px;
+  margin-bottom: 40px;
+}
+
+.catalog-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--primary-light, #c4b5fd);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.catalog-header h2 {
+  margin-bottom: 12px;
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+.catalog-header p {
+  color: var(--text-muted, #b8b8c7);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  .catalog {
+    padding: 60px 5%;
+  }
+
+  .game-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .catalog-header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .catalog {
+    padding: 45px 5%;
+  }
+
+  .catalog-header {
+    margin-bottom: 28px;
+  }
+
+  .catalog-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .game-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
