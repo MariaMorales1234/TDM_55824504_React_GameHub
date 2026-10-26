@@ -1,11 +1,20 @@
-:root {
+:root,
+:root[data-theme="dark"] {
   --bg: #0a0a0a;
   --colors: #9527F5;
-  --text: #fff;
+  --text: #ffffff;
+  --card: #1c1c2b;
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+}
+
+:root[data-theme="light"] {
+  --bg: #f5f5fa;
+  --colors: #7c2bd9;
+  --text: #20202a;
+  --card: #DEB8FF;
 }
 
 * {

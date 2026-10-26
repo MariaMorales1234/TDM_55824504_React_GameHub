@@ -4,7 +4,7 @@
   min-width: 0;
   height: 100%;
   padding: 24px;
-  background-color: var(--surface, #1c1c2b);
+  background-color: var(--surface, var(--card));
   border: 1px solid var(--border, #343448);
   border-radius: 14px;
   transition:
