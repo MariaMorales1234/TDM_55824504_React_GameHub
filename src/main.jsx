@@ -5,7 +5,7 @@ import './index.css'
 import App from './App.jsx'
 
 const clarityProjectId =
-  import.meta.env.VITE_CLARITY_PROJECT_ID || 'zfa8ptkenf'
+  import.meta.env.VITE_CLARITY_PROJECT_ID || 'zfagj9m1zm'
 
 Clarity.init(clarityProjectId)
 
